@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.MyPortfolio1.ElyJF.ElyJfApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 67.591 s - in com.MyPortfolio1.ElyJF.ElyJfApplicationTests

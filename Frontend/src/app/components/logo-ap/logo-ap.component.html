@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/APLogo.png" id="logoAP">
+        </div>
+        <div class="redes">
+            <div>
+                <a href="https://www.linkedin.com/in/elizabet-santana-452936252/"><img src="../../../assets/linkedin.png" alt="linkedin"></a>
+                <a href=""><img src="../../../assets/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/ely.gdesign/"><img src="../../../assets/instagram.png" alt="instagram"></a>
+                <a href="https://github.com/ElyJF"><img src="../../../assets/github.png" alt="github"></a>
+                <a href=""><img src="../../../assets/twitter.png" alt="twitter"></a>
+                <button type="button" class="custom-btn btn-12" (click)="login()" *ngIf="!isLogged"><span>Iniciar Sesión</span><span>Sign in</span></button>
+                <button type="button" class="custom-btn btn-12" (click)="onLogOut()" *ngIf="isLogged"><span>Cerrar sesión</span><span>Sign out</span></button>
+            </div> 
+        </div>
+    </div>
+</div>
