@@ -1,10 +1,10 @@
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 .redes{
-    margin-right: 0.5em;
+    margin-right: 50px;
 }
 #logoAP{
     width: 150px;
